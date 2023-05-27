@@ -113,7 +113,7 @@ nav ul li a:hover{
     color: white;
     font-size: 30px;
     position: relative;
-    top: -500px;
+    top: -250px;
 }
 
 .about_me-container{
@@ -140,4 +140,9 @@ img{
     position: relative;
     left: 70%;
     top: -950px;
+    transition: transform .2s;
+
+}
+img:hover {
+  transform: scale(1.5);
 }
