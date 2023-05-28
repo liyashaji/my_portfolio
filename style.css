@@ -134,15 +134,96 @@ nav ul li a:hover{
     left: 65%;
     top: -700px;
 }
-img{
-    width: 300px;
-    height: 300px;
+.zoom{
+    
     position: relative;
     left: 70%;
     top: -950px;
     transition: transform .2s;
-
+    width: 300px;
+    height: 300px;
 }
-img:hover {
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.zoom:hover{
   transform: scale(1.5);
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+    top: 56rem;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ccc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    background-color: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 5px;
+    left: 50%;
+    margin-left: -7.5px;
+}
+
+.timeline-content {
+    position: relative;
+    margin-left: 30px;
+}
+
+.timeline-content h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.timeline-content p {
+    margin: 12px 0;
+}
+
+.timeline-content .date {
+    font-weight: bold;
+}
+.acdemics{
+    color: white;
+    position: relative;
+    top: 55rem;
+    font-size: 30px;
+    padding-left: 55px;
+    
+}
+.about-me{
+    height: 200px;
+}
+
+.academic-timeline{
+    width: 50%;
+}
+
+.square{
+    position: relative;
+    right: -600px;
+    top: 300px;
 }
